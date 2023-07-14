@@ -9,6 +9,19 @@ body {
 	grid-template-rows: repeat(3, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
+	opacity: 0;
+    transform: translateY(100%);
+    animation: slideFromBottom 1s forwards;
+}
+
+@keyframes slideFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
 }
 	
 .div1 { 
