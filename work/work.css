@@ -194,3 +194,23 @@ body{
   right: 0;
   bottom: -2px
 }
+
+#nav{
+  font-family: 'Cormorant', serif;
+  font-size: 1.5vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  /*background-color: #0d97ac;*/
+}
+
+li a, .dropbtn{
+  display: block;
+  color: #d8d1cb;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}

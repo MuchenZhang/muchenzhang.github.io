@@ -55,3 +55,23 @@ a:hover {
 	font-style: italic;
 	transform: translate(3px, 0);
 }
+
+#nav{
+    font-family: 'Cormorant', serif;
+    font-size: 1.5vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    /*background-color: #0d97ac;*/
+}
+
+li a, .dropbtn{
+    display: block;
+    color: #434642;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
